@@ -21,7 +21,7 @@ namespace TreeSharp
         }
 
 
-        private static void WalkTree(Composite root, object rootContext = null)
+        public static void WalkTree(Composite root, object rootContext = null)
         {
             // This function is meant as an EXAMPLE ONLY!
             // It is not the best way to handle walking the tree, but will suffice for simple usages.
